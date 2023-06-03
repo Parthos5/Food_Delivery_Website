@@ -11,10 +11,17 @@ export default function Home() {
         <Navbar />
       </div>
       <div>
-      <Carousel />
+        <Carousel />
       </div>
-      <div>
-      <Card />
+      <div className="m-4" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",justifyItems:"centre !important"}}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <Footer />
     </div>
